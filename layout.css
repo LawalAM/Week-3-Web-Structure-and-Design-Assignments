@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  color: blue;
+}
+.heading{
+  background-color: rgb(216, 112, 147);
+  height: 75px;
+  width: 100%;
+  border: 2px solid rgba(27, 11, 27, 0.349);
+  /* color: snow; */
+}
+.heading p{
+  padding-left: 25%;
+  padding-top: 15px;
+  font-weight: bold;
+  display: inline-block;
+}
+.heading h3{
+  display: inline-block;
+  /* text-align: center; */
+  font-size: 2rem;
+  padding-left: 15%;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 465px;
+  width: 100vw;
+  align-items: stretch;
+}
+.sideBar{
+  background-color: rgb(15, 43, 136);
+  /* flex-grow: 1; */
+  width: 40%;
+  height: 100%;
+  border: 2px solid rgb(216, 112, 147);
+}
+.sideBar h3{
+  text-align: center;
+  padding-top: 50%;
+}
+.sideBar p{
+  text-align: center;
+  padding-top: 10px;
+}
+.midBar{
+  /* flex-grow: 2; */
+  background-color: rgb(165, 42, 159);
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgb(15, 43, 136);
+}
+.midBar h3{
+  text-align: center;
+  padding-top: 20%;
+}
+.midBar p{
+  text-align: center;
+  padding-top: 10px;
+}
+.footer{
+  background-color: rgba(27, 11, 27, 0.349);
+  height: 75px;
+  width: 100%;
+  border: 2px solid rgb(165, 42, 159);
+  /* color: snow; */
+}
+.footer h3{
+  display: inline-block;
+  /* text-align: center; */
+  font-size: 2rem;
+  padding-left: 15%;
+}
+.footer p{
+  padding-left: 25%;
+  padding-top: 15px;
+  font-weight: bold;
+  display: inline-block;
+}
